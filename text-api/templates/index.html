@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Analyzer</title>
+</head>
+<body>
+    <h2>Upload a .txt file for analysis</h2>
+    <form action="/analyze/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".txt" required />
+        <button type="submit">Analyze</button>
+    </form>
+</body>
+</html>
